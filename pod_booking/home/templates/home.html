@@ -6,7 +6,7 @@
 <section class="colorful jumbotron mb-0" role="banner">
     <nav class="navbar navbar-expand-lg justify-content-between navbar-dark" role="navigation">
         <div class="navbar-brand">
-            <a href="index.html">Hotel Spoof
+            <a href="index.html">BookingPlace
                 <em>.</em>
             </a>
         </div>
@@ -21,10 +21,8 @@
 
         <div class="row mt-2 justify-content-between">
             <div class="col-md-8 text-white align-self-center mb-2 p-4">
-                <h1>HOTEL Place</h1>
-                <span class=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum debitis perspiciatis sed iusto
-                    eveniet neque natus quidem velit optio cumque saepe repudiandae vero, sit hic adipisci laudantium libero blanditiis
-                    animi.
+                <h1>BookingPlace</h1>
+                <span class=""> Không gian tích hợp đa dạng dịch vụ giúp thúc đẩy công việc của bạn phát triển một cách tối đa.
                 </span>
             </div>
            
@@ -81,9 +79,9 @@
                     <div class="form-inline">
                         <label class="" for="exampleFormControlSelect1">Sort by</label>
                         <select class="form-control" name="sort_by" id="exampleFormControlSelect1">
-                            <option value="">Recommended</option>
-                            <option {% if sort_by == 'ASC' %} selected {%endif %} value="ASC">ASC</option>
-                            <option {% if sort_by == 'DSC' %} selected {%endif %} value="DSC">DSC</option>
+                            <option value="">Khuyến nghị</option>
+                            <option {% if sort_by == 'ASC' %} selected {%endif %} value="ASC">Giá tăng dần</option>
+                            <option {% if sort_by == 'DSC' %} selected {%endif %} value="DSC">Giá giảm dần</option>
                            
                         </select>
                     </div>
