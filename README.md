@@ -2,7 +2,6 @@
 <h3 align="center">A student from UTH</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=junndung" alt="junndung" /></a> </p>
-- 🌱 I’m currently learning **Mobile developer**
 
 - 📫 How to reach me **junndung2005@gmail.com**
 
